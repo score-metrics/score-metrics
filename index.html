@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Metrics | Pro Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col justify-between">
+    
+    <!-- Header -->
+    <header class="border-b border-slate-800 bg-slate-900/50 backdrop-blur sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold tracking-wider text-emerald-400">SCORE <span class="text-white">METRICS</span></h1>
+        <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full font-medium">Live Feed</span>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 py-10 w-full flex-grow">
+        <div class="mb-8">
+            <h2 class="text-2xl font-bold tracking-tight">Panel de Predicciones</h2>
+            <p class="text-slate-400 text-sm mt-1">Analítica avanzada de partidos y modelos de probabilidad en tiempo real.</p>
+        </div>
+
+        <!-- Tarjeta de Partido de Ejemplo -->
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-1 h-full bg-emerald-500"></div>
+            <div class="flex justify-between items-center mb-4">
+                <span class="text-xs text-slate-400 uppercase tracking-widest font-semibold">La Liga • Jornada 28</span>
+                <span class="text-xs text-emerald-400 font-mono bg-emerald-950/50 px-2 py-0.5 rounded">En curso</span>
+            </div>
+            
+            <div class="flex justify-between items-center my-6">
+                <div class="text-center w-1/3">
+                    <span class="font-bold text-lg block">Real Madrid</span>
+                    <span class="text-xs text-slate-400">Local</span>
+                </div>
+                <div class="text-center w-1/3 font-mono">
+                    <span class="text-2xl font-black text-slate-200">VS</span>
+                </div>
+                <div class="text-center w-1/3">
+                    <span class="font-bold text-lg block">Barcelona</span>
+                    <span class="text-xs text-slate-400">Visitante</span>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-4 mt-4 grid grid-cols-3 gap-4 text-center text-xs">
+                <div class="bg-slate-950/40 p-2 rounded-lg">
+                    <span class="text-slate-400 block mb-1">Prob. Local</span>
+                    <span class="text-emerald-400 font-bold text-sm">55%</span>
+                </div>
+                <div class="bg-slate-950/40 p-2 rounded-lg">
+                    <span class="text-slate-400 block mb-1">Empate</span>
+                    <span class="text-slate-300 font-bold text-sm">25%</span>
+                </div>
+                <div class="bg-slate-950/40 p-2 rounded-lg">
+                    <span class="text-slate-400 block mb-1">Prob. Visitante</span>
+                    <span class="text-rose-400 font-bold text-sm">20%</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 text-center py-4 text-xs text-slate-500">
+        &copy; 2026 Score Metrics. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
